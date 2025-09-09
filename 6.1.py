@@ -8,17 +8,7 @@ from rich.console import Console
 from rich.table import Table
 from pystyle import Colors, Colorate
 import cloudscraper
-colors = [
-    "\033[1;37m\033[1m",  # Trắng
-    "\033[1;32m\033[1m",  # Xanh lá
-    "\033[1;34m\033[1m",  # Xanh dương 
-    "\033[1m\033[38;5;51m",  # Xanh nhạt
-    "\033[1;31m\033[1m\033[1m",  # Đỏ
-    "\033[1;30m\033{1m",  # Xám
-    "\033[1;33m\033[1m",  # Vàng
-    "\033[1;35m\033[1m",  # Tím
-    "\033[32;5;245m\033[1m\033[38;5;39m",  # Màu đặc biệt
-]
+
 # Kiểm tra mạng
 def kiem_tra_mang():
     try:
@@ -202,5 +192,6 @@ while True:
         baoloi(ads_id, object_id, account_id, job_type)
         print("Job lỗi, bỏ qua và lấy job mới...", end="\r")
         sleep(1.5)
+
 
 
