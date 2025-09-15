@@ -1,3 +1,4 @@
+import cloudscraper
 import sys,os,time,json
 def kiemtrathietbi():
 
@@ -858,4 +859,5 @@ while True:
                         print (f'{greenb}[{redb}!{greenb}] {redb}FAILED (Không hỗ trợ {type_nv}) {whiteb}ID: {greenb}{id_nv} {lightblueb}| {whiteb}Nhiệm Vụ: {greenb}{type_nv} {lightblueb}|{whiteb}             ',end = "\n")
             else:
                 print (f'{redb}Golike Đã Hết Job    ', end = "\r")
+
                 time.sleep (1)
