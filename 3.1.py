@@ -393,7 +393,7 @@ while True:
     # Đếm ngược delay
     for remaining_time in range(delay, -1, -1):
         color = "\033[1;36m" if remaining_time % 2 == 0 else "\033[1;33m"
-        print(f"\r{color} PV|NP-TOOL| {remaining_time}s           ", end="")
+        print(f"\r{color} by|Hakito| {remaining_time}s           ", end="")
         time.sleep(1)
     
     print("\r                          \r", end="") 
