@@ -312,7 +312,7 @@ os.system('cls' if os.name== 'nt' else 'clear')
 
 print(banner)
 print("\033[1;39m╔═════════════════════════════════════╗")
-print("\033[1;39m║     \033[1;36m Bắt Đầu Bú Job + Kiếm Xiền      \033[1;39m║")
+print("\033[1;39m║     \033[1;36m Bắt Đầu Get Job      \033[1;39m║")
 print("\033[1;39m╚═════════════════════════════════════╝")
 
 while True:
@@ -393,11 +393,11 @@ while True:
     # Đếm ngược delay
     for remaining_time in range(delay, -1, -1):
         color = "\033[1;36m" if remaining_time % 2 == 0 else "\033[1;33m"
-        print(f"\r{color} by|Hakito| {remaining_time}s           ", end="")
+        print(f"\r{color} PV|Hakito| {remaining_time}s           ", end="")
         time.sleep(1)
     
     print("\r                          \r", end="") 
-    print("\033[1;36m Đang Nhận Tiền ,Chờ 1 Chút Xíu...  ",end = "\r")
+    print("\033[1;36m Đang Nhận Tiền ,đợi 1 lúc...  ",end = "\r")
 
     # Hoàn thành job
     max_attempts = 2
