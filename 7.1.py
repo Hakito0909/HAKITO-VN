@@ -86,9 +86,9 @@ def banner(red,green,blue,yellow,cyan,pink):
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'''
  
   pr3(text)
-  text=f'''{red}            ┌───────────────────────┐ 
-{red}            ║ {green}   GOLIKE - TIKTOK  {red}  ║
-{red}            └───────────────────────┘
+  text=f'''{red}            ┌─────────────────────────────┐ 
+{red}            ║ {green}   GOLIKE - TIKTOK Studio  {red}  ║
+{red}            └─────────────────────────────┘
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 {red}MỌI NGƯỜI {cyan}CHÚ Ý!!!!
  [HKT]{green}TIỀN SAU KHI LÀM NVỤ SẼ ĐƯỢC CỘNG SAU VÀI PHÚT
@@ -633,4 +633,5 @@ while True:
                 else:
                   getjob(maxjob,delay,auth,idtiktok,red,blue,green,yellow,cyan,magenta,orange,xanhnhat,xduong,pink)
           except json.JSONDecodeError:
+
               print("Dữ liệu không hợp lệ. Vui lòng kiểm tra lại định dạng JSON trong tệp.")
